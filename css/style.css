@@ -72,7 +72,7 @@ header {
     height: 100px;
     border-radius: 10px;
 }
-
+/*ps5*/
 ._ps5 {
     width: 100%;
     height: 600px;
@@ -97,12 +97,22 @@ header {
     color: white;
 }
 
-
 ._ps5-img img {
     width: 500px;
     height: 400px;
     margin-left: 40px;
+}
+/*fine ps5*/
+
+/*device ps5*/
+
+._device-ps5 {
+    width: 100%;
+    height: 170px;
     
-    
-    
+}
+
+._items img {
+    width: 150px;
+    height: 100px;
 }
