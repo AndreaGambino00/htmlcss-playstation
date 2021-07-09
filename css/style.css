@@ -63,4 +63,19 @@ header {
     border-color: tomato;
 }
 
+/* fine jumbotron*/
 
+/*Game*/
+
+._game {
+    width: 100%;
+    height: 150px;
+    background-color: violet;
+}
+
+._card {
+    width: 200px;
+    height: 100px;
+    background-color: wheat;
+    border: 1px solid black;
+}
