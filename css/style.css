@@ -6,6 +6,10 @@
 
 /*Header*/
 
+header {
+    background: royalblue;
+}
+
 ._sony {
     width: 100%;
     height: 30px;
@@ -19,8 +23,44 @@
     margin-top: 6px;
 }
 
-i {
+._search {
     color: white;
     font-size: 30px;
     margin-left: 10px;
 }
+
+/* fine Header*/
+
+/*jumbotron*/
+
+._jumbotron {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+}
+
+._text-jumbo {
+    color: white;
+    padding: 20px;
+}
+
+._text-jumbo img {
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 10px;
+}
+
+._text-jumbo p {
+    width: 320px;
+}
+
+._text-jumbo button {
+    background-color: tomato;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border-color: tomato;
+}
+
+
