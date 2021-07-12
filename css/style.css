@@ -7,7 +7,17 @@
 /*Header*/
 
 header {
-    background: royalblue;
+    position: fixed;
+    width: 100%;
+}
+
+._logo-ps {
+    color: blue;
+}
+
+.navbar {
+    filter: invert(1);
+    width: 100%;
 }
 
 ._sony {
@@ -37,21 +47,20 @@ header {
     width: 100%;
     height: 600px;
     background-image: url("../img/jumbo-bg.png");
+
+    
 }
 
 ._text-jumbo {
     color: white;
-    padding: 20px;
+    margin-left: 30px;
+    
 }
 
 ._text-jumbo img {
     width: 200px;
     margin-top: 300px;
-    margin-left: 10px;
-}
-
-._text-jumbo p {
-    width: 320px;
+    
 }
 
 ._text-jumbo button {
@@ -102,6 +111,10 @@ header {
     height: 400px;
     margin-left: 40px;
 }
+
+._play #limits {
+    color: blue;
+}
 /*fine ps5*/
 
 /*device ps5*/
@@ -112,7 +125,166 @@ header {
     
 }
 
-._items img {
+._items img{
     width: 150px;
-    height: 100px;
+    opacity: 0.5;
 }
+
+._items:hover {
+    border-bottom: 2px solid blue;
+}
+
+._items img:hover {
+    opacity: 5;
+}
+/* fine device ps5*/
+
+/*Jumbotron2*/
+
+._jumbotron2 {
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+._text-jumbo2 img {
+    width: 300px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+._text-jumbo2 {
+    color: white;
+    margin-left: 30px;
+}
+
+._text-jumbo2 button {
+    background-color: tomato;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border-color: tomato;
+}
+
+._text-jumbo2 p {
+    color: white;
+}
+
+/* fine Jumbotron2*/
+
+/* Game*/
+._game2 {
+    width: 100%;
+    height: 500px;
+    background-color:#1F1F1F ;
+    color: white;
+}
+
+._card-game img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+/* fine Game*/
+
+/*explore ps4*/
+
+._explore-ps4 {
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+}
+._items2 img {
+    width: 300px;
+    height: 200px;
+}
+
+._items2 button {
+    background-color: #2D64E6;
+    border-radius: 50px;
+    padding: 10px;
+    width: 130px;
+    color: white;
+    border-color: #2D64E6;
+}
+/* fine explore ps4*/
+
+/*jumbotron3*/
+._jumbotron3 {
+    width: 100%;
+    height: 400px;
+    background-color: #BEBCBB;
+}
+
+#_soulstorm {
+    height: 400px;
+    float: right;
+}
+
+#_logo-plus {
+    width: 300px;
+    margin-top: 100px;
+}
+
+#_btn-ps {
+    background-color: #D9DADC;
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    color: blue;
+    border-color: #D9DADC;
+}
+
+/* fine jumbotron3*/
+
+/*sconti*/
+._sconti {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+._card2 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+/* fine sconti*/
+
+/*jumbotron4*/
+._jumbotron4 {
+    width: 100%;
+    height: 400px;
+    background-color:#161C3B ;
+    color: white;
+    margin-top: 40px;
+}
+
+#_avengers {
+    height: 400px;
+    float: right;
+}
+
+#_btn-now {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 230px;
+    color: black;
+    border-color: white;
+}
+/*fine jumbotron4*/
+
+/*social*/
+._social {
+    margin-top: 40px;
+}
+
+
+
