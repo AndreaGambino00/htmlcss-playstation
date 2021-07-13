@@ -9,6 +9,7 @@
 header {
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 ._logo-ps {
@@ -16,7 +17,7 @@ header {
 }
 
 .navbar {
-    filter: invert(1);
+    
     width: 100%;
 }
 
@@ -34,7 +35,7 @@ header {
 }
 
 ._search {
-    color: white;
+    color: black;
     font-size: 30px;
     margin-left: 10px;
 }
@@ -45,15 +46,18 @@ header {
 
 ._jumbotron {
     width: 100%;
-    height: 600px;
+    min-height: 20vh;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
     background-image: url("../img/jumbo-bg.png");
-
-    
+    padding: 30px;
 }
 
 ._text-jumbo {
     color: white;
     margin-left: 30px;
+    margin-top:30px;
     
 }
 
@@ -84,7 +88,7 @@ header {
 /*ps5*/
 ._ps5 {
     width: 100%;
-    height: 600px;
+    min-height: 20vh;
     margin-top: 30px;
 }
 
@@ -121,8 +125,7 @@ header {
 
 ._device-ps5 {
     width: 100%;
-    height: 170px;
-    
+    min-height: 30vh;
 }
 
 ._items img{
@@ -143,8 +146,7 @@ header {
 
 ._jumbotron2 {
     width: 100%;
-    height: 800px;
-    margin-top: 40px;
+    min-height: 30vh;
     background-size: cover;
     background-position: center;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -153,13 +155,14 @@ header {
 ._text-jumbo2 img {
     width: 300px;
     height: 200px;
-    margin-top: 200px;
     margin-left: 10px;
 }
 
 ._text-jumbo2 {
     color: white;
     margin-left: 30px;
+    padding: 30px;
+    
 }
 
 ._text-jumbo2 button {
@@ -180,9 +183,10 @@ header {
 /* Game*/
 ._game2 {
     width: 100%;
-    height: 500px;
+    min-height: 20vh;
     background-color:#1F1F1F ;
     color: white;
+    padding: 20px;
 }
 
 ._card-game img {
@@ -198,7 +202,7 @@ header {
 
 ._explore-ps4 {
     width: 100%;
-    height: 500px;
+    min-height: 30vh;
     margin-top: 40px;
 }
 ._items2 img {
@@ -219,13 +223,15 @@ header {
 /*jumbotron3*/
 ._jumbotron3 {
     width: 100%;
-    height: 400px;
+    min-height: 51vh;
     background-color: #BEBCBB;
+    margin-top: 30px;
 }
 
 #_soulstorm {
     height: 400px;
     float: right;
+    
 }
 
 #_logo-plus {
@@ -247,20 +253,19 @@ header {
 /*sconti*/
 ._sconti {
     width: 100%;
-    height: 400px;
+    min-height: 20vh;
     margin-top: 40px;
 }
 ._card2 img {
     width: 300px;
     height: 300px;
-    margin-right: 20px;
 }
 /* fine sconti*/
 
 /*jumbotron4*/
 ._jumbotron4 {
     width: 100%;
-    height: 400px;
+    min-height: 50vh;
     background-color:#161C3B ;
     color: white;
     margin-top: 40px;
@@ -285,6 +290,42 @@ header {
 ._social {
     margin-top: 40px;
 }
+/* fine social*/
 
+/*footer*/
 
+.footer {
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+
+#logo-ps {
+    margin-top: 100px;
+}
+
+.region {
+    margin-top: 50px;
+}
+
+#globe {
+    width: 20px;
+    height: 20px;
+}
+
+._link {
+    float: right;
+}
+
+._foot-bottom {
+    margin-bottom: 100px; 
+}
+
+#_sony-logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+}
 
