@@ -133,10 +133,6 @@ header {
     opacity: 0.5;
 }
 
-._items:hover {
-    border-bottom: 2px solid blue;
-}
-
 ._items img:hover {
     opacity: 5;
 }
